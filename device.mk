@@ -17,7 +17,7 @@
 # Include common makefile
 $(call inherit-product, device/samsung/exynos3475-common/common.mk)
 
-DEVICE_PATH := device/samsung/on5ltetmo
+DEVICE_PATH := device/samsung/gteslte
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
