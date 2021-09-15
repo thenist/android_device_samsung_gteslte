@@ -17,7 +17,7 @@
 #
 
 set -e
-DEVICE=on5ltetmo
+DEVICE=gteslte
 VENDOR=samsung
 
 INITIAL_COPYRIGHT_YEAR=2019

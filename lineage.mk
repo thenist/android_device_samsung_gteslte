@@ -15,7 +15,7 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/on5ltetmo/device.mk)
+$(call inherit-product, device/samsung/gteslte/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -24,14 +24,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_on5ltetmo
-PRODUCT_DEVICE := on5ltetmo
+PRODUCT_NAME := lineage_gteslte
+PRODUCT_DEVICE := gteslte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := G550T
+PRODUCT_MODEL := T375S
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=samsung/on5ltetmo/on5ltetmo:6.0.1/MMB29K/G550TUVU2AQC4:user/release-keys \
-    PRIVATE_BUILD_DESC="on5ltetmo-user 6.0.1 MMB29K G550TUVU2AQC4 release-keys" \
+    BUILD_FINGERPRINT=samsung/gteslteskt/gteslteskt:6.0.1/MMB29K/T375SKSU1BQB3:user/release-keys \
+    PRIVATE_BUILD_DESC="gteslteskt-user 6.0.1 MMB29K T375SKSU1BQB3 release-keys" \

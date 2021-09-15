@@ -17,7 +17,7 @@
 # Include common Stuff
 include device/samsung/exynos3475-common/BoardCommonConfig.mk
 
-DEVICE_PATH := device/samsung/on5ltetmo
+DEVICE_PATH := device/samsung/gteslte
 
 # Kernel config
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
@@ -41,7 +41,7 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE  := ext4
 BOARD_HAS_LARGE_FILESYSTEM := true
 
 # Recovery
-TARGET_OTA_ASSERT_DEVICE := on5ltetmo, on5lte
+TARGET_OTA_ASSERT_DEVICE := gteslte, gteslteskt
 
 # RIL
 BOARD_VENDOR := samsung
